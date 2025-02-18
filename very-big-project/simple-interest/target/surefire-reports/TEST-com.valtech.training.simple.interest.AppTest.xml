@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.valtech.training.simple.interest.AppTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.valtech.training.simple.interest.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/test-classes:/Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/classes:/Users/shanthakumar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/shanthakumar/valtech-2025/very-big-project/arithmetic/target/classes:"/>
+    <property name="java.class.path" value="/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/test-classes:/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/classes:/Users/shanthakumar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/arithmetic/target/classes:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/surefire/surefirebooter-20250217180827456_6.jar /Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/surefire 2025-02-17T18-08-25_831-jvmRun1 surefire-20250217180827456_4tmp surefire_1-20250217180827456_5tmp"/>
+    <property name="sun.java.command" value="/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/surefire/surefirebooter-20250218164905614_6.jar /Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/surefire 2025-02-18T16-49-04_728-jvmRun1 surefire-20250218164905614_4tmp surefire_1-20250218164905614_5tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/test-classes:/Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/classes:/Users/shanthakumar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/shanthakumar/valtech-2025/very-big-project/arithmetic/target/classes:"/>
+    <property name="surefire.test.class.path" value="/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/test-classes:/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/classes:/Users/shanthakumar/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/arithmetic/target/classes:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/shanthakumar"/>
     <property name="user.language" value="en"/>
@@ -23,13 +23,13 @@
     <property name="java.version.date" value="2022-08-18"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-18.0.2.1.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/shanthakumar/valtech-2025/very-big-project/simple-interest"/>
+    <property name="basedir" value="/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/shanthakumar/valtech-2025/very-big-project/simple-interest/target/surefire/surefirebooter-20250217180827456_6.jar"/>
+    <property name="surefire.real.class.path" value="/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest/target/surefire/surefirebooter-20250218164905614_6.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -43,7 +43,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/l_/ht0s3ptn741gxtkvrk4vl15m0000gn/T/"/>
     <property name="java.version" value="18.0.2.1"/>
-    <property name="user.dir" value="/Users/shanthakumar/valtech-2025/very-big-project/simple-interest"/>
+    <property name="user.dir" value="/Users/shanthakumar/valtech-2025/gitdemo/very-big-project/simple-interest"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -55,5 +55,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testApp" classname="com.valtech.training.simple.interest.AppTest" time="0.007"/>
+  <testcase name="testApp" classname="com.valtech.training.simple.interest.AppTest" time="0.006"/>
 </testsuite>

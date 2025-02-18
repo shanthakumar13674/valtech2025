@@ -5,11 +5,16 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 class ArithmeticImplTest {
@@ -25,6 +30,30 @@ class ArithmeticImplTest {
 	public void some()	{
 		System.out.println("Init....");
 		arithmetic = new ArithmeticImpl();
+	}
+	
+	static Stream<Arguments> addArgumentsProvider()	{
+		return Stream.of(Arguments.of(2,3,5),
+				Arguments.of(-1,2,1),
+				Arguments.of(5,-5,0)
+				);
+	}
+	
+	@ParameterizedTest(name="Add with Method Source A = {0} B = {1} Res = {2}")
+	@MethodSource(value = "addArgumentsProvider")
+	void testAddWithMethodSource(int a,int b,int res)	{
+		assertEquals(res, arithmetic.add(a, b));
+	}
+	
+	@ParameterizedTest(name="Add with CSV File A = {0} B = {1} C = {2}")
+	@CsvFileSource(files="data.csv")
+	void testAddWithCSFile(int a,int b,int res)	{
+		assertEquals(res, arithmetic.add(a, b));
+	}
+	@ParameterizedTest(name="Add with CSV Source A = {0} B = {1} Result = {2}")
+	@CsvSource(value = {"2,3,5","-1,3,2","0,3,3","-1,-1,-2"})
+	void testAddWithCSV(int a,int b,int res)	{
+		assertEquals(res, arithmetic.add(a, b));
 	}
 	
 	@ParameterizedTest(name = "Add with Multiple Values")
